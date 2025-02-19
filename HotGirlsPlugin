@@ -12,7 +12,7 @@ from common.log import logger
     version="0.0.1",
     author="sllt",
 )
-class HotGirlsPlugin(plugins.Plugin):
+class HotGirlsPlugin(Plugin):
     """
     插件功能：
     1. 当消息中包含 "美女" 或 "小姐姐" 时，返回美女图片。
