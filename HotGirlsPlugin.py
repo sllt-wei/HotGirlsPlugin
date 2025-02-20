@@ -1,5 +1,6 @@
 import requests
-import plugins import *
+import plugins
+from plugins import Plugin
 from bridge.reply import Reply, ReplyType
 from bridge.context import ContextType
 from common.log import logger
